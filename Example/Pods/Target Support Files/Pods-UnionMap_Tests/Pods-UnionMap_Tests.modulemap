@@ -1,0 +1,6 @@
+framework module Pods_UnionMap_Tests {
+  umbrella header "Pods-UnionMap_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

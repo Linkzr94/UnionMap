@@ -1,0 +1,16 @@
+PODS:
+  - UnionMap (0.0.1)
+
+DEPENDENCIES:
+  - UnionMap (from `../`)
+
+EXTERNAL SOURCES:
+  UnionMap:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UnionMap: 25b2b1f0e0ceae62c54d5fc4d5c722c1cf7e5dc0
+
+PODFILE CHECKSUM: c57ba9b114aa26d9ea5eac0e303944e097c3f058
+
+COCOAPODS: 1.6.1
