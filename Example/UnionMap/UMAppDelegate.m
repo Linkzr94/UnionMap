@@ -14,7 +14,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UMConfig *config = [[UMConfig alloc] init];
+    UnionMap *unionMap = [[UnionMap alloc] init];
+    [unionMap hello];
     return YES;
 }
 
