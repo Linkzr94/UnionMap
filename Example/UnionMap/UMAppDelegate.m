@@ -7,13 +7,14 @@
 //
 
 #import "UMAppDelegate.h"
-#import <UnionMap/UnionMap.h>
+#import <UnionMap-umbrella.h>
 
 @implementation UMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    UMConfig *config = [[UMConfig alloc] init];
     return YES;
 }
 

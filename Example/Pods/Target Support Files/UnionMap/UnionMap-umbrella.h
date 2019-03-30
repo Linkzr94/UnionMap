@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "UMConfig.h"
 #import "UnionMap.h"
 
 FOUNDATION_EXPORT double UnionMapVersionNumber;
