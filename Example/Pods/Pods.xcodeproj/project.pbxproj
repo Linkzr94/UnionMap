@@ -7,30 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00C0781F2250690700380B27 /* UMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0781B2250690700380B27 /* UMConfig.m */; };
-		00C078202250690700380B27 /* UMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0781B2250690700380B27 /* UMConfig.m */; };
-		00C078212250690700380B27 /* UMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0781B2250690700380B27 /* UMConfig.m */; };
-		00C078222250690700380B27 /* UnionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0781C2250690700380B27 /* UnionMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00C078232250690700380B27 /* UnionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0781C2250690700380B27 /* UnionMap.h */; };
-		00C078242250690700380B27 /* UnionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0781C2250690700380B27 /* UnionMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00C078252250690700380B27 /* UMConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0781D2250690700380B27 /* UMConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00C078262250690700380B27 /* UMConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0781D2250690700380B27 /* UMConfig.h */; };
-		00C078272250690700380B27 /* UMConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0781D2250690700380B27 /* UMConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00C078282250690700380B27 /* UnionMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0781E2250690700380B27 /* UnionMap.m */; };
-		00C078292250690700380B27 /* UnionMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0781E2250690700380B27 /* UnionMap.m */; };
-		00C0782A2250690700380B27 /* UnionMap.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0781E2250690700380B27 /* UnionMap.m */; };
-		00C0782D2250727800380B27 /* AMapAdepter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0782B2250727800380B27 /* AMapAdepter.h */; };
-		00C0782E2250727800380B27 /* AMapAdepter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0782B2250727800380B27 /* AMapAdepter.h */; };
-		00C0782F2250727800380B27 /* AMapAdepter.h in Headers */ = {isa = PBXBuildFile; fileRef = 00C0782B2250727800380B27 /* AMapAdepter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		00C078302250727800380B27 /* AMapAdepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0782C2250727800380B27 /* AMapAdepter.m */; };
-		00C078312250727800380B27 /* AMapAdepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0782C2250727800380B27 /* AMapAdepter.m */; };
-		00C078322250727800380B27 /* AMapAdepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 00C0782C2250727800380B27 /* AMapAdepter.m */; };
-		12088A075F582D4C48B5F7C05FD198D5 /* UnionMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F179A40306E500568D15383DA5A1C3B /* UnionMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1C4FDDD4ADA4A1FA2420D37D11B8965A /* Pods-UnionMap_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 86F705BDC34A672AED7E142580991045 /* Pods-UnionMap_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2E331B822C9A675B20094F4C88895100 /* UnionMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8F0849E5424784361DB4E777A5C824C /* UnionMap-dummy.m */; };
+		292C0D3A104DAEE91CC3B68FE865ADDE /* UMConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D34FDD3A448593A96249E7CA03F0E199 /* UMConfig.m */; };
+		302FD89E07C78CA69CC41F063175DDC1 /* UnionMap-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E1FD583834E2FCFFE3E76FADEDC8FA6 /* UnionMap-dummy.m */; };
 		394A09DC946BE76E7495063198A628AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		5A83F12D781203ADD86A2E8CA7B87217 /* AMapAdepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8882A9A5D10DF64AA17C89A46D30DAE4 /* AMapAdepter.m */; };
 		671ACCE2ABF36A7BBBD5EA201761E2DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		6AAAF093F30DF0F481794DC04D169BA9 /* Pods-UnionMap_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D2C2531E0F02A89B03F01E0DDE904624 /* Pods-UnionMap_Tests-dummy.m */; };
+		6FB09F8C17B31B5CE53CC97E91E5CC7C /* UnionMap.m in Sources */ = {isa = PBXBuildFile; fileRef = D8E622918ECA718EB329785E1CF14B1F /* UnionMap.m */; };
+		823FCA83FC24132F09A19B188EB5FE5B /* UnionMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 2381F96E3EE4B726EC5A0E140BF6B685 /* UnionMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90D0587AD323973BA6F4CC9C98BBAAD0 /* UMConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 11D5E796E1C0E0BC16D5BB47EA2F1FC5 /* UMConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		942841D4E9234813EA98802206385CE3 /* UnionMap-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4443DE797825A6D4807179AAED4891E4 /* UnionMap-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C1E7DFFFA4D7676A01F78922760A42E1 /* AMapAdepter.h in Headers */ = {isa = PBXBuildFile; fileRef = E63A471B539C4656B743F5A7D224D252 /* AMapAdepter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBACF7313C4C310F59B357D35502D83C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		F80463A27A64786DAA945F6299FBA9DB /* Pods-UnionMap_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DFFA0DCD972A66331002992266AC9B4 /* Pods-UnionMap_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCF23475AC90CC338F694C844413B83F /* Pods-UnionMap_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C824CCAA804A98A4609A78CF025355CF /* Pods-UnionMap_Example-dummy.m */; };
@@ -54,43 +42,43 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		00C0781B2250690700380B27 /* UMConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UMConfig.m; sourceTree = "<group>"; };
-		00C0781C2250690700380B27 /* UnionMap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnionMap.h; sourceTree = "<group>"; };
-		00C0781D2250690700380B27 /* UMConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UMConfig.h; sourceTree = "<group>"; };
-		00C0781E2250690700380B27 /* UnionMap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UnionMap.m; sourceTree = "<group>"; };
-		00C0782B2250727800380B27 /* AMapAdepter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMapAdepter.h; sourceTree = "<group>"; };
-		00C0782C2250727800380B27 /* AMapAdepter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMapAdepter.m; sourceTree = "<group>"; };
-		23272EF2910C4595D455B0421026A010 /* UnionMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnionMap-prefix.pch"; sourceTree = "<group>"; };
-		29C89DF3055BAF3F8C02B55E02FEC80A /* UnionMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnionMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11D5E796E1C0E0BC16D5BB47EA2F1FC5 /* UMConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMConfig.h; path = UnionMap/Classes/UMCommon/UMConfig.h; sourceTree = "<group>"; };
+		13D56914BC74983C5F40B6B5C7244529 /* UnionMap.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UnionMap.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20562DFF4651D67E08DB981FD5998A20 /* UnionMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnionMap.xcconfig; sourceTree = "<group>"; };
+		2381F96E3EE4B726EC5A0E140BF6B685 /* UnionMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UnionMap.h; path = UnionMap/Classes/UMCommon/UnionMap.h; sourceTree = "<group>"; };
+		29C89DF3055BAF3F8C02B55E02FEC80A /* UnionMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnionMap.framework; path = UnionMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A9AF23320DBB089226732F8C858D4A9 /* Pods-UnionMap_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnionMap_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		37054F34BF75EB72147DC1C979F8E211 /* UnionMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnionMap-Info.plist"; sourceTree = "<group>"; };
-		3F179A40306E500568D15383DA5A1C3B /* UnionMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnionMap-umbrella.h"; sourceTree = "<group>"; };
+		394ED869EA55E0DA2E230EEB3B73C84F /* UnionMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnionMap-prefix.pch"; sourceTree = "<group>"; };
+		41C8B4B591360141DBC8146345E65617 /* UnionMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnionMap-Info.plist"; sourceTree = "<group>"; };
+		4443DE797825A6D4807179AAED4891E4 /* UnionMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnionMap-umbrella.h"; sourceTree = "<group>"; };
 		5D3BB523A65CC0A91E3329D9B751EDBF /* Pods-UnionMap_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnionMap_Example.release.xcconfig"; sourceTree = "<group>"; };
 		5D791D4AEBE670C377398B40596267E1 /* Pods-UnionMap_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnionMap_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		5DFFA0DCD972A66331002992266AC9B4 /* Pods-UnionMap_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnionMap_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5FCF0E9ED57100F19DC973D10875CA4A /* Pods-UnionMap_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnionMap_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6271C7A0EC3E79BC73B7E34E5B3466A9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		60FB513725A7D63D9607B4CA34762F2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		64E4E7EAFD3CDBE0C5259553AC80F12B /* Pods-UnionMap_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnionMap_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		697620FD468C31362A7305DD26A6D731 /* Pods-UnionMap_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnionMap_Example-Info.plist"; sourceTree = "<group>"; };
 		69FCA8C591DF9F26074AD8760B1D0C44 /* Pods-UnionMap_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UnionMap_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		72D229AF86F921CA926D070E1B951FF9 /* Pods-UnionMap_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnionMap_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7E3259F5A77B973D39F9C32E5FDB4C59 /* UnionMap.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UnionMap.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		84C4147FD27CC8170DBE82D8981049F4 /* UnionMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnionMap.modulemap; sourceTree = "<group>"; };
 		86F705BDC34A672AED7E142580991045 /* Pods-UnionMap_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UnionMap_Example-umbrella.h"; sourceTree = "<group>"; };
-		890CA49E10D3625FFC952AA39138CFE4 /* Pods_UnionMap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnionMap_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8882A9A5D10DF64AA17C89A46D30DAE4 /* AMapAdepter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AMapAdepter.m; path = UnionMap/Classes/UMAMap/AMapAdepter.m; sourceTree = "<group>"; };
+		890CA49E10D3625FFC952AA39138CFE4 /* Pods_UnionMap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnionMap_Example.framework; path = "Pods-UnionMap_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B7A1B800F8964DD43BB370E755722AB /* Pods-UnionMap_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnionMap_Tests-Info.plist"; sourceTree = "<group>"; };
 		8DB8E381F46AB6B70914F2E144606B63 /* Pods-UnionMap_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnionMap_Example-frameworks.sh"; sourceTree = "<group>"; };
-		94690AC3D2E48A1688462DC96009C160 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		98C0D66978425C86CBECCBE32474BAA9 /* Pods_UnionMap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnionMap_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A47367C6D1D96B9BB35A221FBC61E616 /* UnionMap.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = UnionMap.modulemap; sourceTree = "<group>"; };
-		A4898DDA36105EC0F4EE7F6E9B4A7298 /* UnionMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnionMap.xcconfig; sourceTree = "<group>"; };
+		8E1FD583834E2FCFFE3E76FADEDC8FA6 /* UnionMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnionMap-dummy.m"; sourceTree = "<group>"; };
+		98C0D66978425C86CBECCBE32474BAA9 /* Pods_UnionMap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnionMap_Tests.framework; path = "Pods-UnionMap_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C824CCAA804A98A4609A78CF025355CF /* Pods-UnionMap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnionMap_Example-dummy.m"; sourceTree = "<group>"; };
 		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D2C2531E0F02A89B03F01E0DDE904624 /* Pods-UnionMap_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnionMap_Tests-dummy.m"; sourceTree = "<group>"; };
+		D34FDD3A448593A96249E7CA03F0E199 /* UMConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMConfig.m; path = UnionMap/Classes/UMCommon/UMConfig.m; sourceTree = "<group>"; };
+		D8E622918ECA718EB329785E1CF14B1F /* UnionMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UnionMap.m; path = UnionMap/Classes/UMCommon/UnionMap.m; sourceTree = "<group>"; };
+		E63A471B539C4656B743F5A7D224D252 /* AMapAdepter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapAdepter.h; path = UnionMap/Classes/UMAMap/AMapAdepter.h; sourceTree = "<group>"; };
 		F06C5CAC5CD8C1D0CC0799F9785CC585 /* Pods-UnionMap_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnionMap_Tests.modulemap"; sourceTree = "<group>"; };
 		F2F168334E1B2472200EE24076155D94 /* Pods-UnionMap_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnionMap_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F77B9EF6875DCC325274AA3FB64F6DC4 /* Pods-UnionMap_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnionMap_Example.modulemap"; sourceTree = "<group>"; };
-		F8F0849E5424784361DB4E777A5C824C /* UnionMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnionMap-dummy.m"; sourceTree = "<group>"; };
+		FB8D4F9A44130A73ABC370C02FD443C4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,28 +109,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00C078192250690700380B27 /* UMAMap */ = {
-			isa = PBXGroup;
-			children = (
-				00C0782B2250727800380B27 /* AMapAdepter.h */,
-				00C0782C2250727800380B27 /* AMapAdepter.m */,
-			);
-			name = UMAMap;
-			path = UnionMap/Classes/UMAMap;
-			sourceTree = "<group>";
-		};
-		00C0781A2250690700380B27 /* UMCommon */ = {
-			isa = PBXGroup;
-			children = (
-				00C0781B2250690700380B27 /* UMConfig.m */,
-				00C0781C2250690700380B27 /* UnionMap.h */,
-				00C0781D2250690700380B27 /* UMConfig.h */,
-				00C0781E2250690700380B27 /* UnionMap.m */,
-			);
-			name = UMCommon;
-			path = UnionMap/Classes/UMCommon;
-			sourceTree = "<group>";
-		};
 		00C1E36DD446E63E017768A628D131E9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,12 +118,33 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3A00A25991EAB6BD28A3E6AD11FAEA32 /* Development Pods */ = {
+		253190F47EB1C5BB6140B50C259B9CE7 /* UnionMap */ = {
 			isa = PBXGroup;
 			children = (
-				95D250A3C8B6B7E8B899A525383D49A3 /* UnionMap */,
+				B7885C316779BFD44F70137D374659C5 /* Pod */,
+				7B64A6EBEB75D17CEC933540442F41A7 /* Support Files */,
+				5F26AE9C734A2AB3E315BEC3771AA4CA /* UMAMap */,
+				CD9D536D0366E97F253301EF82CD9C4C /* UMCommon */,
+			);
+			name = UnionMap;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		31D6B9B6E82AA7E0AE316FF4D1113162 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				253190F47EB1C5BB6140B50C259B9CE7 /* UnionMap */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5F26AE9C734A2AB3E315BEC3771AA4CA /* UMAMap */ = {
+			isa = PBXGroup;
+			children = (
+				E63A471B539C4656B743F5A7D224D252 /* AMapAdepter.h */,
+				8882A9A5D10DF64AA17C89A46D30DAE4 /* AMapAdepter.m */,
+			);
+			name = UMAMap;
 			sourceTree = "<group>";
 		};
 		73ECD0F7AD77554D2E582769F1D4A6CA /* Pods-UnionMap_Tests */ = {
@@ -176,16 +163,18 @@
 			path = "Target Support Files/Pods-UnionMap_Tests";
 			sourceTree = "<group>";
 		};
-		95D250A3C8B6B7E8B899A525383D49A3 /* UnionMap */ = {
+		7B64A6EBEB75D17CEC933540442F41A7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				00C078192250690700380B27 /* UMAMap */,
-				00C0781A2250690700380B27 /* UMCommon */,
-				EA5F0E497613175575B69911F576C5CB /* Pod */,
-				DF6C55ECAEDF3DA7C5700DC498FF76A0 /* Support Files */,
+				84C4147FD27CC8170DBE82D8981049F4 /* UnionMap.modulemap */,
+				20562DFF4651D67E08DB981FD5998A20 /* UnionMap.xcconfig */,
+				8E1FD583834E2FCFFE3E76FADEDC8FA6 /* UnionMap-dummy.m */,
+				41C8B4B591360141DBC8146345E65617 /* UnionMap-Info.plist */,
+				394ED869EA55E0DA2E230EEB3B73C84F /* UnionMap-prefix.pch */,
+				4443DE797825A6D4807179AAED4891E4 /* UnionMap-umbrella.h */,
 			);
-			name = UnionMap;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/UnionMap";
 			sourceTree = "<group>";
 		};
 		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
@@ -194,6 +183,16 @@
 				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		B7885C316779BFD44F70137D374659C5 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				60FB513725A7D63D9607B4CA34762F2A /* LICENSE */,
+				FB8D4F9A44130A73ABC370C02FD443C4 /* README.md */,
+				13D56914BC74983C5F40B6B5C7244529 /* UnionMap.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		BA68FEDC3EE04733565A4C832E814AF7 /* Products */ = {
@@ -206,11 +205,22 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		CD9D536D0366E97F253301EF82CD9C4C /* UMCommon */ = {
+			isa = PBXGroup;
+			children = (
+				11D5E796E1C0E0BC16D5BB47EA2F1FC5 /* UMConfig.h */,
+				D34FDD3A448593A96249E7CA03F0E199 /* UMConfig.m */,
+				2381F96E3EE4B726EC5A0E140BF6B685 /* UnionMap.h */,
+				D8E622918ECA718EB329785E1CF14B1F /* UnionMap.m */,
+			);
+			name = UMCommon;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3A00A25991EAB6BD28A3E6AD11FAEA32 /* Development Pods */,
+				31D6B9B6E82AA7E0AE316FF4D1113162 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				BA68FEDC3EE04733565A4C832E814AF7 /* Products */,
 				00C1E36DD446E63E017768A628D131E9 /* Targets Support Files */,
@@ -223,20 +233,6 @@
 				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		DF6C55ECAEDF3DA7C5700DC498FF76A0 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A47367C6D1D96B9BB35A221FBC61E616 /* UnionMap.modulemap */,
-				A4898DDA36105EC0F4EE7F6E9B4A7298 /* UnionMap.xcconfig */,
-				F8F0849E5424784361DB4E777A5C824C /* UnionMap-dummy.m */,
-				37054F34BF75EB72147DC1C979F8E211 /* UnionMap-Info.plist */,
-				23272EF2910C4595D455B0421026A010 /* UnionMap-prefix.pch */,
-				3F179A40306E500568D15383DA5A1C3B /* UnionMap-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/UnionMap";
 			sourceTree = "<group>";
 		};
 		E6AE97C23AE65FEC67683E42A7BAB362 /* Pods-UnionMap_Example */ = {
@@ -256,38 +252,14 @@
 			path = "Target Support Files/Pods-UnionMap_Example";
 			sourceTree = "<group>";
 		};
-		EA5F0E497613175575B69911F576C5CB /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				94690AC3D2E48A1688462DC96009C160 /* LICENSE */,
-				6271C7A0EC3E79BC73B7E34E5B3466A9 /* README.md */,
-				7E3259F5A77B973D39F9C32E5FDB4C59 /* UnionMap.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1847AEFFE0C07F237C004523C38D5567 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				12088A075F582D4C48B5F7C05FD198D5 /* UnionMap-umbrella.h in Headers */,
-				00C078242250690700380B27 /* UnionMap.h in Headers */,
-				00C078272250690700380B27 /* UMConfig.h in Headers */,
-				00C0782F2250727800380B27 /* AMapAdepter.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		1F775AAB6FB850187081A3829D41F8A3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1C4FDDD4ADA4A1FA2420D37D11B8965A /* Pods-UnionMap_Example-umbrella.h in Headers */,
-				00C078222250690700380B27 /* UnionMap.h in Headers */,
-				00C078252250690700380B27 /* UMConfig.h in Headers */,
-				00C0782D2250727800380B27 /* AMapAdepter.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,9 +268,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				F80463A27A64786DAA945F6299FBA9DB /* Pods-UnionMap_Tests-umbrella.h in Headers */,
-				00C078232250690700380B27 /* UnionMap.h in Headers */,
-				00C078262250690700380B27 /* UMConfig.h in Headers */,
-				00C0782E2250727800380B27 /* AMapAdepter.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F97DA47A5DC012A11002B31264C141F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E7DFFFA4D7676A01F78922760A42E1 /* AMapAdepter.h in Headers */,
+				90D0587AD323973BA6F4CC9C98BBAAD0 /* UMConfig.h in Headers */,
+				942841D4E9234813EA98802206385CE3 /* UnionMap-umbrella.h in Headers */,
+				823FCA83FC24132F09A19B188EB5FE5B /* UnionMap.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,8 +308,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2567229624B200079CAD2238C135F6F8 /* Build configuration list for PBXNativeTarget "UnionMap" */;
 			buildPhases = (
-				1847AEFFE0C07F237C004523C38D5567 /* Headers */,
-				AD1D82CF9A50819F6FB23CFED3F7BB07 /* Sources */,
+				5F97DA47A5DC012A11002B31264C141F /* Headers */,
+				954940B48FFCAD53F59B2AB9D7A8B84C /* Sources */,
 				9E004B2B01D8AD6B3AD6BB528467A69D /* Frameworks */,
 				0A292E6E64AFA4406CA52DBF543A5788 /* Resources */,
 			);
@@ -375,7 +355,6 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -419,21 +398,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C078312250727800380B27 /* AMapAdepter.m in Sources */,
-				00C078292250690700380B27 /* UnionMap.m in Sources */,
 				6AAAF093F30DF0F481794DC04D169BA9 /* Pods-UnionMap_Tests-dummy.m in Sources */,
-				00C078202250690700380B27 /* UMConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD1D82CF9A50819F6FB23CFED3F7BB07 /* Sources */ = {
+		954940B48FFCAD53F59B2AB9D7A8B84C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C078322250727800380B27 /* AMapAdepter.m in Sources */,
-				00C0782A2250690700380B27 /* UnionMap.m in Sources */,
-				2E331B822C9A675B20094F4C88895100 /* UnionMap-dummy.m in Sources */,
-				00C078212250690700380B27 /* UMConfig.m in Sources */,
+				5A83F12D781203ADD86A2E8CA7B87217 /* AMapAdepter.m in Sources */,
+				292C0D3A104DAEE91CC3B68FE865ADDE /* UMConfig.m in Sources */,
+				302FD89E07C78CA69CC41F063175DDC1 /* UnionMap-dummy.m in Sources */,
+				6FB09F8C17B31B5CE53CC97E91E5CC7C /* UnionMap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -441,10 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00C078302250727800380B27 /* AMapAdepter.m in Sources */,
-				00C078282250690700380B27 /* UnionMap.m in Sources */,
 				FCF23475AC90CC338F694C844413B83F /* Pods-UnionMap_Example-dummy.m in Sources */,
-				00C0781F2250690700380B27 /* UMConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,7 +492,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -658,7 +632,7 @@
 		};
 		5A893AD340553215A86D8BB2FAB80CF3 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4898DDA36105EC0F4EE7F6E9B4A7298 /* UnionMap.xcconfig */;
+			baseConfigurationReference = 20562DFF4651D67E08DB981FD5998A20 /* UnionMap.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -689,7 +663,7 @@
 		};
 		AA81DF8BF7784CC5FDA24D742821EFFB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A4898DDA36105EC0F4EE7F6E9B4A7298 /* UnionMap.xcconfig */;
+			baseConfigurationReference = 20562DFF4651D67E08DB981FD5998A20 /* UnionMap.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UnionMap'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'UnionMap for iOS.'
 
   s.description      = <<-DESC
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.subspec 'UMCommon' do |ss|
     ss.source_files = 'UnionMap/Classes/UMCommon/*'
-    #ss.dependency = 'CTMediator'
+    ss.dependency 'CTMediator'
   end
 
   s.subspec 'UMAMap' do |ss|

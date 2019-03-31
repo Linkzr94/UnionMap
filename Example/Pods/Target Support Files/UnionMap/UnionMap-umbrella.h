@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "AMapAdepter.h"
 #import "UMConfig.h"
 #import "UnionMap.h"
 

@@ -1,7 +1,7 @@
 {
   "name": "UnionMap",
-  "version": "0.0.1",
-  "summary": "A short description of UnionMap.",
+  "version": "0.0.3",
+  "summary": "UnionMap for iOS.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/nullcex/UnionMap",
   "license": {
@@ -13,10 +13,19 @@
   },
   "source": {
     "git": "https://github.com/nullcex/UnionMap.git",
-    "tag": "0.0.1"
+    "tag": "0.0.3"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "UnionMap/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "UMCommon",
+      "source_files": "UnionMap/Classes/UMCommon/*"
+    },
+    {
+      "name": "UMAMap",
+      "source_files": "UnionMap/Classes/UMAMap/*"
+    }
+  ]
 }
