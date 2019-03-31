@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UnionMap'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'UnionMap for iOS.'
 
   s.description      = <<-DESC
@@ -26,14 +26,16 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 
-  s.subspec 'UMCommon' do |Common|
-    Common.source_files = 'UnionMap/Classes/UMCommon/**/*'
-    Common.dependency = 'CTMediator'
+  #s.default_subspec = 'UMCommon'
+
+  s.subspec 'UMCommon' do |ss|
+    ss.source_files = 'UnionMap/Classes/UMCommon/*'
+    #ss.dependency = 'CTMediator'
   end
 
-  s.subspec 'UMAMap' do |AMap|
-    AMap.source_files = 'UnionMap/Classes/UMAMap/**/*'
-    AMap.dependency = 'UnionMap/Classes/UMCommon'
+  s.subspec 'UMAMap' do |ss|
+    ss.source_files = 'UnionMap/Classes/UMAMap/*'
+    #ss.dependency 'UnionMap/Classes/UMCommon'
   end
 
 end
