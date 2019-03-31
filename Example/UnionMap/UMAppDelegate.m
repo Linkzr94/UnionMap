@@ -7,7 +7,9 @@
 //
 
 #import "UMAppDelegate.h"
-#import <UnionMap-umbrella.h>
+#import <UnionMap.h>
+#import <UMConfig.h>
+#import <AMapAdepter.h>
 
 @implementation UMAppDelegate
 

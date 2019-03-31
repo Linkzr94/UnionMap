@@ -497,6 +497,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5A31F5C62FCAE702A1F4F49A /* Pods-UnionMap_Example.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UnionMap/UnionMap-Prefix.pch";
@@ -513,6 +514,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C512B33B213511EC6C94CB32 /* Pods-UnionMap_Example.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UnionMap/UnionMap-Prefix.pch";
