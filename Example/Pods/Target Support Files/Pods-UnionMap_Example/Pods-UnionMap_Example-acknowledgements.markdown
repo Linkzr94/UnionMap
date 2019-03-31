@@ -1,6 +1,11 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## CTMediator
+
+MIT
+
+
 ## UnionMap
 
 Copyright (c) 2019 nullcex <1028159057@qq.com>

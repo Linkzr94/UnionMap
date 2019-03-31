@@ -1,19 +1,26 @@
 PODS:
-  - UnionMap (0.0.3):
-    - UnionMap/UMAMap (= 0.0.3)
-    - UnionMap/UMCommon (= 0.0.3)
-  - UnionMap/UMAMap (0.0.3)
-  - UnionMap/UMCommon (0.0.3)
+  - CTMediator (25)
+  - UnionMap (0.0.4):
+    - UnionMap/UMAMap (= 0.0.4)
+    - UnionMap/UMCommon (= 0.0.4)
+  - UnionMap/UMAMap (0.0.4)
+  - UnionMap/UMCommon (0.0.4):
+    - CTMediator
 
 DEPENDENCIES:
   - UnionMap (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
 
 EXTERNAL SOURCES:
   UnionMap:
     :path: "../"
 
 SPEC CHECKSUMS:
-  UnionMap: 021a012f4be2b5b5cecc3332d5397c096121aea6
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  UnionMap: 7112fa2836a3c91089e3028ca96dd5ffba4fee22
 
 PODFILE CHECKSUM: c57ba9b114aa26d9ea5eac0e303944e097c3f058
 

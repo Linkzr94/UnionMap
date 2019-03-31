@@ -1,6 +1,6 @@
 {
   "name": "UnionMap",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "summary": "UnionMap for iOS.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/nullcex/UnionMap",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/nullcex/UnionMap.git",
-    "tag": "0.0.3"
+    "tag": "0.0.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,7 +21,12 @@
   "subspecs": [
     {
       "name": "UMCommon",
-      "source_files": "UnionMap/Classes/UMCommon/*"
+      "source_files": "UnionMap/Classes/UMCommon/*",
+      "dependencies": {
+        "CTMediator": [
+
+        ]
+      }
     },
     {
       "name": "UMAMap",
