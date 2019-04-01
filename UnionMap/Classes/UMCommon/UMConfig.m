@@ -9,4 +9,8 @@
 
 @implementation UMConfig
 
+- (void)currentLocation {
+    !self.delegate ? : [self.delegate currentLocation];
+}
+
 @end

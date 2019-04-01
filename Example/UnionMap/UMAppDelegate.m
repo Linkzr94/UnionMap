@@ -7,17 +7,18 @@
 //
 
 #import "UMAppDelegate.h"
-#import <UnionMap.h>
-#import <UMConfig.h>
-#import <AMapAdepter.h>
+#import "UMViewController.h"
 
 @implementation UMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
-    UnionMap *unionMap = [[UnionMap alloc] init];
-    [unionMap hello];
+    [self.window makeKeyAndVisible];
+    
+    UMViewController *vc = [[UMViewController alloc] init];
+    self.window.rootViewController = vc;
+    
     return YES;
 }
 

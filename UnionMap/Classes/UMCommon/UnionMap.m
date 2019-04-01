@@ -9,8 +9,4 @@
 
 @implementation UnionMap
 
-- (void)hello {
-    NSLog(@"hello!!!");
-}
-
 @end

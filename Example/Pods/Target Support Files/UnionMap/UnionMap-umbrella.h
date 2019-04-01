@@ -11,7 +11,11 @@
 #endif
 
 #import "AMapAdepter.h"
+#import "Target_AMapAdepter.h"
 #import "UMConfig.h"
+#import "UMManager.h"
+#import "UMRequest.h"
+#import "UMResponder.h"
 #import "UnionMap.h"
 
 FOUNDATION_EXPORT double UnionMapVersionNumber;

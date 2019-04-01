@@ -6,12 +6,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "UMConfig.h"
+#import "UMManager.h"
+#import "UMRequest.h"
+#import "UMResponder.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
 @interface UnionMap : NSObject
-
-- (void)hello;
 
 @end
 
