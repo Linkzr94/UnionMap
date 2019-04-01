@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'UnionMap'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'UnionMap for iOS.'
 
   s.description      = <<-DESC
@@ -35,7 +35,14 @@ TODO: Add long description of the pod here.
 
   s.subspec 'UMAMap' do |ss|
     ss.source_files = 'UnionMap/Classes/UMAMap/*'
-    #ss.dependency 'UnionMap/Classes/UMCommon'
+    ss.dependency 'UnionMap/UMCommon'
+    ss.dependency 'AMap3DMap'
+    ss.dependency 'AMapSearch'
   end
+
+  s.static_framework = true
+
+  #s.dependency 'AMap3DMap'
+  #s.dependency 'AMapSearch'
 
 end

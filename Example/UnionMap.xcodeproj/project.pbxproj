@@ -208,6 +208,7 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				3C89026EE4C26D57E601294E /* [CP] Embed Pods Frameworks */,
+				3CD14DECD989E2959EFC9093 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,18 +306,38 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-UnionMap_Example/Pods-UnionMap_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
-				"${BUILT_PRODUCTS_DIR}/UnionMap/UnionMap.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UnionMap.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnionMap_Example/Pods-UnionMap_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CD14DECD989E2959EFC9093 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnionMap_Example/Pods-UnionMap_Example-resources.sh",
+				"${PODS_ROOT}/AMap3DMap/MAMapKit.framework/AMap.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/AMap.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnionMap_Example/Pods-UnionMap_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C8F06A2DC60F3EE675638257 /* [CP] Check Pods Manifest.lock */ = {
