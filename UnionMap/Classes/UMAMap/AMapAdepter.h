@@ -7,8 +7,8 @@
 
 #import <Foundation/Foundation.h>
 #import <MAMapKit/MAMapKit.h>
-#import "UMConfig.h"
-#import "UMResponder.h"
+#import <AMapSearchKit/AMapSearchKit.h>
+#import "UnionMap.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

@@ -16,6 +16,7 @@
 				2DC2DB3B4A1A85F653A62C945ECBA549 /* PBXTargetDependency */,
 			);
 			name = AMapSearch;
+			productName = AMapSearch;
 		};
 		50BA5DD61052DF707065B14D65C1F89D /* AMapFoundation */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 			dependencies = (
 			);
 			name = AMapFoundation;
+			productName = AMapFoundation;
 		};
 		FE663C46151686C21EE87DCEAEFD55B5 /* AMap3DMap */ = {
 			isa = PBXAggregateTarget;
@@ -35,6 +37,7 @@
 				27599A792595C20DAAD53D46182DC703 /* PBXTargetDependency */,
 			);
 			name = AMap3DMap;
+			productName = AMap3DMap;
 		};
 /* End PBXAggregateTarget section */
 
@@ -158,7 +161,7 @@
 		05C55004D89DE3B19C79D3B9E81CCB6D /* MAOfflineMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineMap.h; path = MAMapKit.framework/Headers/MAOfflineMap.h; sourceTree = "<group>"; };
 		09F76801198B2A9982F1DF1AE13879C4 /* AMapServices.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapServices.h; path = AMapFoundationKit.framework/Headers/AMapServices.h; sourceTree = "<group>"; };
 		0A762B3C318B8C0C2F0799D9BF1CF2A7 /* Pods-UnionMap_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnionMap_Tests.modulemap"; sourceTree = "<group>"; };
-		0FD64A2B0A30DFBB631828C94881C255 /* UnionMap.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = UnionMap.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		0FD64A2B0A30DFBB631828C94881C255 /* UnionMap.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UnionMap.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		10C4E70AF892E27AF7173321E9944105 /* CTMediator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CTMediator.m; path = CTMediator/CTMediator/CTMediator.m; sourceTree = "<group>"; };
 		10C87629565B7807EC9A044372A91D77 /* UnionMap-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnionMap-dummy.m"; sourceTree = "<group>"; };
 		1104D43EC7FFEF576BB80EB22A68F4B6 /* AMapFoundationKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapFoundationKit.h; path = AMapFoundationKit.framework/Headers/AMapFoundationKit.h; sourceTree = "<group>"; };
@@ -194,7 +197,7 @@
 		491B47F777BCD6B0EFA650F8D62100EE /* MAUserLocationRepresentation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocationRepresentation.h; path = MAMapKit.framework/Headers/MAUserLocationRepresentation.h; sourceTree = "<group>"; };
 		4A2F28FF07AB03AD8B7FB1CF501F1710 /* NSMutableArray+AMapSafe.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+AMapSafe.h"; path = "AMapFoundationKit.framework/Headers/NSMutableArray+AMapSafe.h"; sourceTree = "<group>"; };
 		4A4327859D068B6EEEE63CED9219FF18 /* MAMultiPointOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPointOverlayRenderer.h; path = MAMapKit.framework/Headers/MAMultiPointOverlayRenderer.h; sourceTree = "<group>"; };
-		524A4733ADD3073782198423F95531DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		524A4733ADD3073782198423F95531DB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		5631A40E25ECBB990DED8720B2CF779D /* UnionMap-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnionMap-prefix.pch"; sourceTree = "<group>"; };
 		57908980EA81A854C230811827501B9C /* MATouchPoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MATouchPoi.h; path = MAMapKit.framework/Headers/MATouchPoi.h; sourceTree = "<group>"; };
 		57CAF41598DE7CC0EFDD91AEA6F9093C /* UnionMap-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnionMap-Info.plist"; sourceTree = "<group>"; };
@@ -231,7 +234,7 @@
 		8D78369A8111AE59CF74A8CB807CC275 /* AMapAdepter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapAdepter.h; path = UnionMap/Classes/UMAMap/AMapAdepter.h; sourceTree = "<group>"; };
 		8E0CB3ED8AF8381EDF269CA5D4F4A448 /* MAMultiPointOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiPointOverlay.h; path = MAMapKit.framework/Headers/MAMultiPointOverlay.h; sourceTree = "<group>"; };
 		8F06C4DBBA94556F81DF8BE304BF1378 /* Pods-UnionMap_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UnionMap_Example.modulemap"; sourceTree = "<group>"; };
-		8FEE822C5012EBAFBE041432DD10CB61 /* Pods_UnionMap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnionMap_Example.framework; path = "Pods-UnionMap_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FEE822C5012EBAFBE041432DD10CB61 /* Pods_UnionMap_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnionMap_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		916230F10EFA8BC108549DEBAFBD916D /* MAGroundOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlayRenderer.h; path = MAMapKit.framework/Headers/MAGroundOverlayRenderer.h; sourceTree = "<group>"; };
 		934BBB4C6F86FEFE8380875CD40F4708 /* Pods-UnionMap_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UnionMap_Example-dummy.m"; sourceTree = "<group>"; };
 		93C0AC6F3B80B5612AAAB8BDC801400F /* MAPointAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPointAnnotation.h; path = MAMapKit.framework/Headers/MAPointAnnotation.h; sourceTree = "<group>"; };
@@ -244,7 +247,7 @@
 		9ABBA2F28CC03E25417D82B41F1E5FC3 /* UnionMap-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnionMap-umbrella.h"; sourceTree = "<group>"; };
 		9B1CD132CEF3F45516AE871B06A52043 /* MAMultiColoredPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiColoredPolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiColoredPolylineRenderer.h; sourceTree = "<group>"; };
 		9D1E478D83509C4E084EF350246479A6 /* AMapSearchKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchKit.h; path = AMapSearchKit.framework/Headers/AMapSearchKit.h; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DA79A980AF84A409921F461113483E3 /* UMConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = UMConfig.h; path = UnionMap/Classes/UMCommon/UMConfig.h; sourceTree = "<group>"; };
 		9EE88442199FBE4339DD5371F7471847 /* NSObject+AMapJsonSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+AMapJsonSerialization.h"; path = "AMapFoundationKit.framework/Headers/NSObject+AMapJsonSerialization.h"; sourceTree = "<group>"; };
 		A3382B358640348D5D1211DDAF69E067 /* MAOfflineItemNationWide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemNationWide.h; path = MAMapKit.framework/Headers/MAOfflineItemNationWide.h; sourceTree = "<group>"; };
@@ -256,11 +259,11 @@
 		AE19DEBD526E0B1ACFA32152CF163681 /* UMManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = UMManager.m; path = UnionMap/Classes/UMCommon/UMManager.m; sourceTree = "<group>"; };
 		B4786677EAE272FB25729C9021E8EA8E /* MAPolygonRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolygonRenderer.h; path = MAMapKit.framework/Headers/MAPolygonRenderer.h; sourceTree = "<group>"; };
 		B8C6C43F941AFF0039A4C5CED675FDB5 /* MACustomBuildingOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MACustomBuildingOverlayRenderer.h; path = MAMapKit.framework/Headers/MACustomBuildingOverlayRenderer.h; sourceTree = "<group>"; };
-		B9AFBFBDD6227E149ECC2703A8B77414 /* Pods_UnionMap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UnionMap_Tests.framework; path = "Pods-UnionMap_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9AFBFBDD6227E149ECC2703A8B77414 /* Pods_UnionMap_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnionMap_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C07359EA96D53795733013964F20C36E /* MAPolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAPolylineRenderer.h; path = MAMapKit.framework/Headers/MAPolylineRenderer.h; sourceTree = "<group>"; };
 		C738EF33CBBA00DF5399A5C25C731815 /* Pods-UnionMap_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnionMap_Example-Info.plist"; sourceTree = "<group>"; };
 		CD80C289EE76E7BDF1F7BB2C2D7273B1 /* MAAnnotationMoveAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotationMoveAnimation.h; path = MAMapKit.framework/Headers/MAAnnotationMoveAnimation.h; sourceTree = "<group>"; };
-		CE3C55FC22890BEEEC5391803D69CD7F /* UnionMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UnionMap.framework; path = UnionMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3C55FC22890BEEEC5391803D69CD7F /* UnionMap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnionMap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CECBB7DA068B8BEFFDBBC4996A15B295 /* Pods-UnionMap_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UnionMap_Tests-Info.plist"; sourceTree = "<group>"; };
 		CF988F39B4E2CB044A169431279707C8 /* AMapUtility.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapUtility.h; path = AMapFoundationKit.framework/Headers/AMapUtility.h; sourceTree = "<group>"; };
 		D05538AFF270B45D8958334C44BBB3E7 /* MAParticleOverlayRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAParticleOverlayRenderer.h; path = MAMapKit.framework/Headers/MAParticleOverlayRenderer.h; sourceTree = "<group>"; };
@@ -271,7 +274,7 @@
 		D96FF61060B867800F742CC42DBA5A52 /* MAArcRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAArcRenderer.h; path = MAMapKit.framework/Headers/MAArcRenderer.h; sourceTree = "<group>"; };
 		DB617412FFD5420E3C96181E43DF7921 /* MAUserLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAUserLocation.h; path = MAMapKit.framework/Headers/MAUserLocation.h; sourceTree = "<group>"; };
 		DCAE28EA8BE2D3F154C7DBFEB95AC8F2 /* MAOfflineItemCommonCity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineItemCommonCity.h; path = MAMapKit.framework/Headers/MAOfflineItemCommonCity.h; sourceTree = "<group>"; };
-		DEAC5370271B15F37E2F7E98DD82BDC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		DEAC5370271B15F37E2F7E98DD82BDC3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DFCF7DA947E3562D42AD605A30B884FE /* MAOfflineProvince.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAOfflineProvince.h; path = MAMapKit.framework/Headers/MAOfflineProvince.h; sourceTree = "<group>"; };
 		DFE226115F1E509CEC6964AA48110DD9 /* MAGroundOverlay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAGroundOverlay.h; path = MAMapKit.framework/Headers/MAGroundOverlay.h; sourceTree = "<group>"; };
 		E3C0332FC96D646397A97839C531F2C7 /* AMapSearchAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchAPI.h; path = AMapSearchKit.framework/Headers/AMapSearchAPI.h; sourceTree = "<group>"; };
@@ -280,7 +283,7 @@
 		E64405BD859D4FE5AE45B5B806547D75 /* MAMultiTexturePolylineRenderer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAMultiTexturePolylineRenderer.h; path = MAMapKit.framework/Headers/MAMultiTexturePolylineRenderer.h; sourceTree = "<group>"; };
 		E7055D14657D7ECBFA774FBCF7908E08 /* AMap3DMap.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMap3DMap.xcconfig; sourceTree = "<group>"; };
 		E8A6ACB58402EFDF3628EE6038EE73A2 /* AMapSearchVersion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AMapSearchVersion.h; path = AMapSearchKit.framework/Headers/AMapSearchVersion.h; sourceTree = "<group>"; };
-		E8FF38FE91ABE8A4F72D87CC1B306A99 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CTMediator.framework; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8FF38FE91ABE8A4F72D87CC1B306A99 /* CTMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CTMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB335D514D04E219562721AD7A7BA2D /* MAMapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MAMapKit.framework; sourceTree = "<group>"; };
 		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EEA760AC0802F3FE320511047907333A /* MAAnnotation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MAAnnotation.h; path = MAMapKit.framework/Headers/MAAnnotation.h; sourceTree = "<group>"; };
@@ -382,7 +385,6 @@
 				10C4E70AF892E27AF7173321E9944105 /* CTMediator.m */,
 				53FAE4CEA1AF39C14BF5DB2F58B99F6F /* Support Files */,
 			);
-			name = CTMediator;
 			path = CTMediator;
 			sourceTree = "<group>";
 		};
@@ -562,7 +564,6 @@
 				8BF99A39800F57DC32AA91A7E86E38A5 /* Resources */,
 				F88E84918B62F5D851FE24ABEC6FEAE0 /* Support Files */,
 			);
-			name = AMap3DMap;
 			path = AMap3DMap;
 			sourceTree = "<group>";
 		};
@@ -588,7 +589,6 @@
 				3A2E6EC041394C24462D6E16E8F2DC03 /* Frameworks */,
 				618AE0FED73922887A8920FE34BA77E1 /* Support Files */,
 			);
-			name = AMapSearch;
 			path = AMapSearch;
 			sourceTree = "<group>";
 		};
@@ -646,7 +646,6 @@
 				762179B95201E98856880A30A229A751 /* Frameworks */,
 				49A28069B4BE0893A1F17207C7FEF132 /* Support Files */,
 			);
-			name = AMapFoundation;
 			path = AMapFoundation;
 			sourceTree = "<group>";
 		};
@@ -829,6 +828,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -1044,8 +1044,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};

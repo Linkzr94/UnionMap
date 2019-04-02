@@ -16,15 +16,6 @@
 
 @implementation UMManager
 
-#pragma mark -- #####   Target   #####
-#define Target_AMap                 @"AMapAdepter"
-#define Target_BaiduMap             @"BaiduMapAdepter"
-#define Target_GoogleMap            @"GoogleMapAdepter"
-
-#pragma mark -- #####   Action   #####
-#define Action_SetApiKey            @"setApiKey"
-#define Action_InitWithConfigAndResponder       @"initWithConfigAndResponder"
-
 static UMManager *instance = nil;
 
 + (instancetype)shareInstance {
@@ -37,10 +28,10 @@ static UMManager *instance = nil;
 }
 
 - (void)setApiKey:(NSString *)apiKey forMap:(MapType)mapType {
-    NSDictionary *params = [NSDictionary dictionaryWithObject:apiKey forKey:@"apiKey"];
+    NSDictionary *params = @{param_apiKey: apiKey};
     switch (mapType) {
         case MapTypeAMap:
-            [[CTMediator sharedInstance] performTarget:Target_AMap action:Action_SetApiKey params:params shouldCacheTarget:NO];
+            [[CTMediator sharedInstance] performTarget:target_AMap action:action_SetApiKey params:params shouldCacheTarget:NO];
             break;
         case MapTypeBaidu:
             
@@ -53,21 +44,21 @@ static UMManager *instance = nil;
 
 - (id)initAdepter:(MapType)mapType
            config:(UMConfig *)config
-        responder:(nonnull UMResponder *)responder
+        responder:(UMResponder *)responder
        identifier:(NSString *)identifier {
-    NSDictionary *params = @{@"config"      : config,
-                             @"responder"   : responder,
+    NSDictionary *params = @{param_config       : config,
+                             param_responder    : responder,
                              };
     NSString *target = @"";
     switch (mapType) {
         case MapTypeAMap:
-            target = Target_AMap;
+            target = target_AMap;
             break;
         case MapTypeBaidu:
-            target = Target_BaiduMap;
+            target = target_BaiduMap;
             break;
         case MapTypeGoogle:
-            target = Target_GoogleMap;
+            target = target_GoogleMap;
             break;
         default:
             NSAssert(NO, @"Invaliable Map Type!!!");
@@ -78,10 +69,10 @@ static UMManager *instance = nil;
     if (self.adepterCache[identifier]) {
         adepter = self.adepterCache[identifier];
     } else {
-        adepter = [[CTMediator sharedInstance] performTarget:Target_AMap action:Action_InitWithConfigAndResponder params:params shouldCacheTarget:NO];
+        adepter = [[CTMediator sharedInstance] performTarget:target action:action_InitWithConfigAndResponder params:params shouldCacheTarget:NO];
         self.adepterCache[identifier] = adepter;
     }
-    SEL getMapView = NSSelectorFromString(@"getMapView");
+    SEL getMapView = NSSelectorFromString(sel_GetMapView);
     if ([adepter respondsToSelector:getMapView]) {
         return [adepter performSelector:getMapView];
     } else {

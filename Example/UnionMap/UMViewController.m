@@ -18,31 +18,40 @@
 
 @implementation UMViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor whiteColor];
     
     [[UMManager shareInstance] setApiKey:@"85a1be5766422a009fed754df3578d65" forMap:MapTypeAMap];
-    
+
     self.config = [[UMConfig alloc] init];  //创建地图配置对象，修改配置以调整地图
     self.config.frame = self.view.bounds;
-    
+    self.config.centerPointImage = @"map_icon_position";
+
     self.responder = [[UMResponder alloc] init];    //创建地图相应对象，地图回调通过相应对象接受处理
     self.responder.delegate = self;
-    
+
     //将config和responder绑定到地图，并返回地图视图，对config和responder的处理能响应到地图，为防止直接对地图做处理
     UIView *mapView = (UIView *)[[UMManager shareInstance] initAdepter:MapTypeAMap
                                                                  config:self.config
                                                              responder: self.responder
                                                             identifier:@"AMapView"];
     [self.view addSubview:mapView];
-    
+
     [self.config currentLocation];
 }
 
-- (void)didReceiveMemoryWarning
-{
+#pragma mark -- #####   UMResponderDelegate   ###
+- (void)responder:(UMResponder *)responder mapRegionChanged:(UMMapInfo *)mapInfo {
+    //请选择上车地点
+    NSLog(@"mapViewRegionChanged: %lf, %lf",mapInfo.coordinate.latitude, mapInfo.coordinate.longitude);
+}
+
+- (void)responder:(UMResponder *)responder mapInfo:(UMMapInfo *)mapInfo mapDidMoveByUser:(BOOL)wasUserAction {
+    NSLog(@"mapDidMoveByUser: %lf, %lf",mapInfo.coordinate.latitude, mapInfo.coordinate.longitude);
+}
+
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }

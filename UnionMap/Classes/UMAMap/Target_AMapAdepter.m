@@ -17,10 +17,10 @@
 }
 
 - (id)Action_initWithConfigAndResponder:(NSDictionary *)params {
-    if (params[@"config"] == nil) {
+    if (params[param_config] == nil) {
         NSAssert(NO, @"no config object, amap adepter initial fail!");
     }
-    if (params[@"responder"] == nil) {
+    if (params[param_responder] == nil) {
         NSAssert(NO, @"no responder object, amap adepter initial fail!");
     }
     return [[AMapAdepter alloc] initWithConfig:params[@"config"] responder:params[@"responder"]];

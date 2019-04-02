@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "AMapAdepter.h"
+#import "UMManager.h"
 
 NS_ASSUME_NONNULL_BEGIN
 

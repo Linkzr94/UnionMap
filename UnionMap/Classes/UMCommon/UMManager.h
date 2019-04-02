@@ -12,6 +12,23 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+#pragma mark -- #####   Target   #####
+static const NSString *target_AMap =            @"AMapAdepter";
+static const NSString *target_BaiduMap =        @"BaiduMapAdepter";
+static const NSString *target_GoogleMap =       @"GoogleMapAdepter";
+
+#pragma mark -- #####   Action   #####
+static const NSString *action_SetApiKey =                   @"setApiKey";
+static const NSString *action_InitWithConfigAndResponder =  @"initWithConfigAndResponder";
+
+#pragma mark -- #####   Selector   #####
+static const NSString *sel_GetMapView = @"getMapView";
+
+#pragma mark -- #####   Param   #####
+static const NSString *param_apiKey =         @"apiKey";
+static const NSString *param_config =         @"config";
+static const NSString *param_responder =      @"responder";
+
 typedef NS_ENUM(NSInteger, MapType) {
     MapTypeAMap = 0,
     MapTypeBaidu,

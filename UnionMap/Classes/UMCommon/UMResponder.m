@@ -7,6 +7,10 @@
 
 #import "UMResponder.h"
 
+@implementation UMMapInfo
+
+@end
+
 @implementation UMResponder
 
 @end
