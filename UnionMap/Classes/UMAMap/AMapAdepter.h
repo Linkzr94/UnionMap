@@ -9,6 +9,8 @@
 #import <MAMapKit/MAMapKit.h>
 #import <AMapSearchKit/AMapSearchKit.h>
 #import "UnionMap.h"
+#import "AMapSearchProxy.h"
+#import "AMapViewProxy.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -18,7 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (MAMapView *)getMapView;
 
-- (instancetype)initWithConfig:(UMConfig *)config responder:(UMResponder *)responder;
+- (instancetype)initWithConfig:(UMConfig *)config
+                       request:(UMRequest *)request
+                     responder:(UMResponder *)responder;
 
 @end
 

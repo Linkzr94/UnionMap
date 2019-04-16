@@ -25,9 +25,10 @@ static const NSString *action_InitWithConfigAndResponder =  @"initWithConfigAndR
 static const NSString *sel_GetMapView = @"getMapView";
 
 #pragma mark -- #####   Param   #####
-static const NSString *param_apiKey =         @"apiKey";
-static const NSString *param_config =         @"config";
-static const NSString *param_responder =      @"responder";
+static const NSString *param_apiKey =           @"apiKey";
+static const NSString *param_config =           @"config";
+static const NSString *param_request =          @"request";
+static const NSString *param_responder =        @"responder";
 
 typedef NS_ENUM(NSInteger, MapType) {
     MapTypeAMap = 0,
@@ -49,6 +50,7 @@ typedef NS_ENUM(NSInteger, MapType) {
 
 - (id)initAdepter:(MapType)mapType
            config:(UMConfig *)config
+          request:(UMRequest *)request
         responder:(UMResponder *)responder
        identifier:(NSString *)identifier;
 

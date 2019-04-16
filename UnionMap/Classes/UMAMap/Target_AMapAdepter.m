@@ -20,10 +20,15 @@
     if (params[param_config] == nil) {
         NSAssert(NO, @"no config object, amap adepter initial fail!");
     }
+    if (params[param_request] == nil) {
+        NSAssert(NO, @"no request object, amap adepter initial fail!");
+    }
     if (params[param_responder] == nil) {
         NSAssert(NO, @"no responder object, amap adepter initial fail!");
     }
-    return [[AMapAdepter alloc] initWithConfig:params[@"config"] responder:params[@"responder"]];
+    return [[AMapAdepter alloc] initWithConfig:params[param_config]
+                                       request:params[param_request]
+                                     responder:params[param_responder]];
 }
 
 @end

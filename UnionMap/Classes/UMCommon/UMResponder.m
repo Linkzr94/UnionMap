@@ -11,6 +11,18 @@
 
 @end
 
+@implementation UMTip
+
+@end
+
+@implementation UMReGeocode
+
+@end
+
+@implementation UMSearchResponse
+
+@end
+
 @implementation UMResponder
 
 @end

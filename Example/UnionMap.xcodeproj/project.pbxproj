@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		008A71912255E18A008585CF /* UMOperateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 008A71902255E18A008585CF /* UMOperateView.m */; };
+		00A3C67C2255F4E300FDF467 /* UMSearchListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 00A3C67B2255F4E300FDF467 /* UMSearchListVC.m */; };
 		1D8E0354315D06836136E5D5 /* Pods_UnionMap_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC0AE6A88681350F43DF5432 /* Pods_UnionMap_Tests.framework */; };
 		4D4E028192A768ED27E45AEA /* Pods_UnionMap_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32102C0B85A445811EFABB70 /* Pods_UnionMap_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		008A718F2255E18A008585CF /* UMOperateView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMOperateView.h; sourceTree = "<group>"; };
+		008A71902255E18A008585CF /* UMOperateView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMOperateView.m; sourceTree = "<group>"; };
+		00A3C67A2255F4E300FDF467 /* UMSearchListVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UMSearchListVC.h; sourceTree = "<group>"; };
+		00A3C67B2255F4E300FDF467 /* UMSearchListVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UMSearchListVC.m; sourceTree = "<group>"; };
 		15404FBC70F5CA7B852C2B46 /* Pods-UnionMap_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnionMap_Tests.release.xcconfig"; path = "Target Support Files/Pods-UnionMap_Tests/Pods-UnionMap_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		20F31BB14ED3DE6AB4333DB2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		2B409D24BD3896655EB51610 /* UnionMap.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = UnionMap.podspec; path = ../UnionMap.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -95,6 +101,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		008A718E2255E140008585CF /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				008A718F2255E18A008585CF /* UMOperateView.h */,
+				008A71902255E18A008585CF /* UMOperateView.m */,
+			);
+			name = Component;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +147,14 @@
 		6003F593195388D20070C39A /* Example for UnionMap */ = {
 			isa = PBXGroup;
 			children = (
+				008A718E2255E140008585CF /* Component */,
 				6003F59C195388D20070C39A /* UMAppDelegate.h */,
 				6003F59D195388D20070C39A /* UMAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* UMViewController.h */,
 				6003F5A6195388D20070C39A /* UMViewController.m */,
+				00A3C67A2255F4E300FDF467 /* UMSearchListVC.h */,
+				00A3C67B2255F4E300FDF467 /* UMSearchListVC.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -309,12 +327,14 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-UnionMap_Example/Pods-UnionMap_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -394,9 +414,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A3C67C2255F4E300FDF467 /* UMSearchListVC.m in Sources */,
 				6003F59E195388D20070C39A /* UMAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* UMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				008A71912255E18A008585CF /* UMOperateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

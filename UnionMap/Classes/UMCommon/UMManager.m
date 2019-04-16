@@ -44,9 +44,11 @@ static UMManager *instance = nil;
 
 - (id)initAdepter:(MapType)mapType
            config:(UMConfig *)config
+          request:(UMRequest *)request
         responder:(UMResponder *)responder
        identifier:(NSString *)identifier {
     NSDictionary *params = @{param_config       : config,
+                             param_request      : request,
                              param_responder    : responder,
                              };
     NSString *target = @"";
