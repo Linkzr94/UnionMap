@@ -5,7 +5,6 @@ PODS:
   - AMapSearch (6.6.0):
     - AMapFoundation (~> 1.4)
   - CTMediator (25)
-  - Masonry (1.1.0)
   - UnionMap (0.0.5):
     - UnionMap/UMAMap (= 0.0.5)
     - UnionMap/UMCommon (= 0.0.5)
@@ -17,7 +16,6 @@ PODS:
     - CTMediator
 
 DEPENDENCIES:
-  - Masonry
   - UnionMap (from `../`)
 
 SPEC REPOS:
@@ -26,7 +24,6 @@ SPEC REPOS:
     - AMapFoundation
     - AMapSearch
     - CTMediator
-    - Masonry
 
 EXTERNAL SOURCES:
   UnionMap:
@@ -37,9 +34,8 @@ SPEC CHECKSUMS:
   AMapFoundation: 20fce2a12cd152e1092afdd04379cdac21932185
   AMapSearch: def5983c8ca1a6d7430970046dc814f6e337621d
   CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
-  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   UnionMap: 66fc9bd29b8e1b56d24197619e99609a743b7b7c
 
-PODFILE CHECKSUM: 3a345baebb5eb13bbc173068ab0dfeaec0f2d8a1
+PODFILE CHECKSUM: c57ba9b114aa26d9ea5eac0e303944e097c3f058
 
 COCOAPODS: 1.6.1
