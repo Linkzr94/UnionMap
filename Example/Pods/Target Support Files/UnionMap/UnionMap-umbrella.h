@@ -10,7 +10,15 @@
 #endif
 #endif
 
+#import "AMapAdepter.h"
+#import "AMapSearchProxy.h"
+#import "AMapViewProxy.h"
+#import "Target_AMapAdepter.h"
 #import "UMConfig.h"
+#import "UMManager.h"
+#import "UMRequest.h"
+#import "UMResponder.h"
+#import "UMRoute.h"
 #import "UnionMap.h"
 
 FOUNDATION_EXPORT double UnionMapVersionNumber;
